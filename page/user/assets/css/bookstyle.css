@@ -1,0 +1,72 @@
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    margin: 20px 0px;
+    letter-spacing: 2px;
+}
+hr{
+    width: 50%;
+    transition: width 1s ease-out;
+    margin: 20px auto;
+}
+h1:hover hr{
+    width:100%;
+    background-color: lightcoral;
+}
+ 
+form {
+    text-align: center;
+    display: block;
+    width:80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 0 0 20px black;
+    background-color: gray;
+    opacity:80%
+}
+form label {
+    display: block;
+    font-size:22px;
+    font-weight: bold;
+    margin: 10px 10px;
+}
+form input {
+    padding: 10PX;
+}
+input[type=text] {
+    width: 10%;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    display: block;
+    margin:10px auto;
+  }
+  input[type=text]:focus {
+    width: 30%;
+  }
+input[type=submit] {
+    width: 10%;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    margin:10px auto;
+}
+  input[type=submit]:hover {
+    width: 15%;
+    background-color: black;
+    color: yellow;
+  }
+  input[type=reset] {
+    width: 10%;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+}
+  input[type=reset]:hover {
+    width: 15%;
+    background-color: black;
+    color: yellow;
+  }
+.page{
+    color: red;
+    background-color: black;
+}
